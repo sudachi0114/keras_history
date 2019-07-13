@@ -14,7 +14,7 @@
 #   モデルが学習した結果(変数) を保持したままにしたい。(プログラム外から参照できるようにする。)
 
 from load_prep_minst import load_and_prep_minstData
-from make_model import build_multilayer_perceptron
+from build_model import build_multilayer_perceptron
 from keras.callbacks import EarlyStopping
 from keras.optimizers import Adam
 
