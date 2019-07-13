@@ -51,7 +51,7 @@ def load_and_prep_minstData(flatten=True, nomalize=True, one_hot=True):
 
 if __name__ == "__main__":
     # 確認
-    (x_train, x_test), (y_train, y_test) = load_and_prep_minstData()
+    (x_train, y_train), (x_test, y_test) = load_and_prep_minstData()
 
     print('confirm : ', x_train[0])
     print('confirm : ', y_train[0])
