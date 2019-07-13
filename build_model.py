@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     # summary
     model.summary()
-    plot_model(model, show_shapes=True, show_layer_names=True, to_file='plot_model.png')
+    plot_model(model, show_shapes=True, show_layer_names=True, to_file='model_image.png')
 
     # compile
     model.compile(
