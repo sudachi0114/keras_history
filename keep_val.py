@@ -49,7 +49,7 @@ history = model.fit(
 
 
 #print(type(history))  # <class 'keras.callbacks.History'>
-#print(history)  # <keras.callbacks.History object at 0xb2f744978>
+#print(history)  # <keras.callbacks.History object at 0xb36762f98>
 
 """ fit() method の戻り値:
     History オブジェクト． 
