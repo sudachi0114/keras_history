@@ -13,6 +13,8 @@
 # CIFAR10 だと重いので、 MNIST を例にやってみる。
 #   モデルに学習をさせる
 
+# ここでは、モデルの fit だけ行い、history の保持はそれ用のプログラムが行う仕様にした。
+
 """
     loss はエポックが経つにつれてどんどん下がるが、
         逆に val_loss が上がっていく。
@@ -45,7 +47,7 @@
 
 # -- 本題 --
 from load_prep_minst import load_and_prep_minstData
-from make_model import build_multilayer_perceptron
+from build_model import build_multilayer_perceptron
 from keras.callbacks import EarlyStopping
 #   https://keras.io/ja/callbacks/
 from keras.optimizers import Adam
