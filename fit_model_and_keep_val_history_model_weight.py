@@ -118,6 +118,6 @@ with open(os.path.join(outfile_pass, 'model_{0:%y%m%d}_{1:%H%M%S}.json'.format(n
 # log として取るもの : (3)
 #   weight (hdf5 形式)
 #model.save_weights('weights_{0:%y%m%d}_{1:%H%M%S}.h5').format(now, now)
-model.save_weights(os.path.join(outfile_pass, 'weights_{0:%y%m%d}_{1:%H%M%S}.h5').format(now, now))
+model.save_weights(os.path.join(outfile_pass, 'weights_{0:%y%m%d}_{1:%H%M%S}.h5'.format(now, now)))
 
 # 参考 : https://keras.io/ja/models/about-keras-models/
