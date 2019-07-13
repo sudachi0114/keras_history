@@ -1,5 +1,4 @@
 
-
 # Thinkpad で学習をさせることも出てきたので、
 #   Keras の model.fit で行った学習の log を取得したい。
 
