@@ -46,7 +46,7 @@ def load_and_prep_minstData(flatten=True, nomalize=True, one_hot=True):
 
         #print('e.g : ', y_train[0])
 
-    return (x_train, x_test), (y_train, y_test)
+    return (x_train, y_train), (x_test, y_test)
 
 
 if __name__ == "__main__":
